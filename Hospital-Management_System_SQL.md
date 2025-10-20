@@ -23,5 +23,5 @@ The vulnerability is triggered by manipulating the ID parameter in the URL. Sinc
 ## Malicious Payload
 ' or sleep(1) #
 
-Impact
+## Impact
 1. Server-Side Code Execution, Data Exposure
