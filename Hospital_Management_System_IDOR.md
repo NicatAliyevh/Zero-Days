@@ -1,4 +1,5 @@
 ## IDOR Vulnerability
+## CVE-2025-63513
 
 ## Summary
 An Insecure Direct Object Reference (IDOR) vulnerability was identified in the appointment cancellation functionality. The application allows users to cancel appointments by modifying the ID parameter in the GET request. This flaw enables an attacker to cancel any user's appointment without proper authorization.
