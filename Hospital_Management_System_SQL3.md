@@ -1,4 +1,5 @@
 ## SQL Injection Vulnerability (CWE-89)
+## CVE-2025-63504
 
 ## Summary
 A critical SQL Injection (SQLi) vulnerability exists within the admin-panel.php script. The application fails to properly sanitize or parameterize user-supplied input from the "docFees" parameter before incorporating it directly into a dynamic SQL query.
