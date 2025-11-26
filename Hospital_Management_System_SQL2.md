@@ -1,4 +1,5 @@
 ## SQL Injection Vulnerability (CWE-89)
+## CVE-2025-63512
 
 ## Summary
 A critical SQL Injection (SQLi) vulnerability exists within the admin-panel1.php script, specifically in the deleting doctor logic. The application fails to properly sanitize or parameterize user-supplied input from the demail parameter before incorporating it directly into a dynamic SQL query. This flaw allows any authenticated user to execute arbitrary database commands, leading to severe impacts, including full Data Exposure, Data Corruption, and potential Server-Side Code Execution (via advanced database techniques).
