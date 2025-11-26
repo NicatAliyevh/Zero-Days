@@ -1,4 +1,5 @@
 ## SQL Injection Vulnerability (CWE-89)
+## CVE-2025-63515
 
 ## Summary
 A critical SQL Injection (SQLi) vulnerability exists within the admin-panel.php script, specifically in the appointment cancellation logic. The application fails to properly sanitize or parameterize user-supplied input from the ID URL parameter before incorporating it directly into a dynamic SQL query.
