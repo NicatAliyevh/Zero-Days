@@ -1,4 +1,5 @@
 ## Horizontal Privilege Escalation Vulnerability
+## CVE-2025-63516
 
 ## Summary
 Just login as a normal user, then change the url from admin-panel.php to admin-panel1.php, you will have admin access. After this, an attacker can do anything that the admin has access to.
