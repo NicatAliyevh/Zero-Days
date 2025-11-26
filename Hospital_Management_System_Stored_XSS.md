@@ -1,5 +1,5 @@
 ## Stored Cross-Site Scripting (XSS) 
-## CVE-2025-63507
+## CVE-2025-63511
 
 ## Summary
 A Cross-Site Scripting (XSS) vulnerability was identified in appsearch.php via the email parameter. Although the UI restricts email input, an attacker can bypass this restriction (e.g., using Burp Suite) and register with a malicious email like "<script>alert(1)</script>@gmail.com". When the user books an appointment, this input is stored and later rendered in the admin panel. Viewing available appointments causes the script to execute in the admin’s browser, posing a security risk.
