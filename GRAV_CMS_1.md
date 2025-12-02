@@ -39,4 +39,9 @@ Observe that a YAML file containing the POC-TOKEN is written outside user/accoun
 https://github.com/user-attachments/assets/b9d52a2e-ef39-49c1-a86b-ee19b8740b35
 
 
+## References
+1. https://github.com/advisories/GHSA-h756-wh59-hhjv
+2. https://nvd.nist.gov/vuln/detail/CVE-2025-66295
+
+
 
