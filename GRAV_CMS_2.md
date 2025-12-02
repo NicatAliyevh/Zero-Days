@@ -22,3 +22,7 @@ A user with the create user permission can create a new account using the same u
 ## Proof of Concept
 https://github.com/user-attachments/assets/4ba7082a-51c6-4829-ac48-60fb07534478
 
+
+## References
+1. https://github.com/advisories/GHSA-cjcp-qxvg-4rjm
+2. https://nvd.nist.gov/vuln/detail/CVE-2025-66296
