@@ -1,4 +1,4 @@
-## Horizontal Privilege Escalation Vulnerability
+## Vertical Privilege Escalation Vulnerability
 ## CVE-2025-63516
 
 ## Summary
