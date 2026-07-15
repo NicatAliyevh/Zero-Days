@@ -1,0 +1,31 @@
+## Broken Access Control
+
+## Summary
+UnifiedTransform has a systemic broken access control vulnerability. This allows any authenticated user, regardless of role (including students), to tamper with academic records — promoting students, editing exam grading rules, modifying courses/sections, and creating/editing/deleting calendar events — and to view or edit other users' personal data via predictable ID enumeration (IDOR), including student/teacher profiles and class attendance rosters.
+
+14 endpoints were confirmed vulnerable (see detailed list). Remediation requires consistently applying the existing permission middleware with correctly scoped abilities per action.
+
+
+## Vulnerable Endpoints List
+1. POST /promotions/promote
+2. GET /promotions
+3. POST /exams/edit-rule
+4. POST /exams/grade/delete-rule
+5. POST /school/course/update
+6. POST /school/section/update
+7. POST /teacher/update
+8. POST /student/update
+9. GET /students/edit/{id}
+10. GET /teachers/edit/{id}
+11. GET /teachers/view/profile/{id}
+12. GET /attendances/view  (query params class_id/section_id/course_id)
+13. GET /attendances/create  (take-attendance form)
+14. POST /calendar-crud-ajax  (type=create/edit/delete)
+
+
+## Impact
+Any authenticated user (regardless of their role) can view and alter data of other users
+
+
+## PoC
+<video controls src="student edit broken access control.mp4" title="Title"></video>
