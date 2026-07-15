@@ -28,4 +28,4 @@ Any authenticated user (regardless of their role) can view and alter data of oth
 
 
 ## PoC
-
+https://github.com/user-attachments/assets/24046220-2c3a-4f98-89ad-a7c0fd6142bc
